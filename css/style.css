@@ -43,7 +43,8 @@ p {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     text-align: center;
-    margin-top: 24px;
+    margin: 24px auto 0;
+    width: 792px;
 }
 
 
@@ -66,10 +67,23 @@ a {
     margin: 40px auto;
 }
 
+a:hover {
+    background-color: #7A2AFF;
+}
+
 section img {
     display: block;
     width: 792px;
     height: 446px;
     margin: 0 auto;
+}
 
+@media (max-width: 768px) {
+
+    header img {
+        margin: 65px 0 0 60px;
+    }
+    p {
+        width: 648px;
+    }
 }
